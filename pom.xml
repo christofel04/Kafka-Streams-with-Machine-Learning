@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.github.kaiwaehner.kafka.streams.machinelearning</groupId>
+	<artifactId>kafka-streams-machine-learning-examples</artifactId>
+	<version>CP53_AK23</version>
+	<packaging>pom</packaging>
+
+	<modules>
+        <!--### Example 1 - Gradient Boosting with H2O.ai for Prediction of Flight Delays -->
+		<module>h2o-gbm</module>
+        <!-- Example 2 - Convolutional Neural Network (CNN) with TensorFlow for Image Recognition -->
+        <module>tensorflow-image-recognition</module>
+        <!-- Example 3 - Iris Prediction using a Neural Network with DeepLearning4J (DL4J) -->
+		<module>dl4j-deeplearning-iris</module>
+        <!-- Example 4 - Python + Keras + TensorFlow + DeepLearning4j -->
+        <module>tensorflow-keras</module>
+	</modules>
+</project>
